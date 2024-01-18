@@ -1,3 +1,4 @@
+import { title } from "@/components/primitives";
 
 export default function PricingPage() {
 	return (
@@ -6,7 +7,7 @@ export default function PricingPage() {
         href="https://api.whatsapp.com/send/?phone=+918401490380&text=Hello%2C+I%27m+interested+in+your+home+services.&type=phone_number&app_absent=0
 "
       >
-        Let's Connect Over What's APP
+        Let&apos;s&apos; Connect Over Whats APP
       </a>
     </div>
   );
