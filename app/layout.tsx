@@ -53,7 +53,7 @@ export default function RootLayout({
               >
                 <span className="text-default-600">Indesign27</span>
                 <p className="text-primary">
-                  Let's Make house a Home Togather !
+                  Let&apos;s&apos; Make house a Home Togather !
                 </p>
               </Link>
             </footer>

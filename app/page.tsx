@@ -25,7 +25,7 @@ export default function Home() {
             variant: "shadow",
           })}
         >
-          Let's Connect Over WhatsApp
+          Let&apos;s&apos; Connect Over WhatsApp
         </Link>
         <Link
           isExternal
@@ -38,9 +38,7 @@ export default function Home() {
 
       <div className="mt-8">
         <Snippet hideSymbol hideCopyButton variant="flat">
-          <span>
-            Let's Redesign Your House 🚀
-          </span>
+          <span>Let&apos;s&apos; Redesign Your House 🚀</span>
         </Snippet>
       </div>
     </section>
