@@ -2,6 +2,9 @@ import { Link } from "@nextui-org/link";
 import { Snippet } from "@nextui-org/snippet";
 import { button as buttonStyles } from "@nextui-org/theme";
 import { title, subtitle } from "@/components/primitives";
+import Image from "next/image";
+import "@/styles/global.css"; // Import global CSS file
+
 
 export default function Home() {
 	return (
@@ -17,7 +20,7 @@ export default function Home() {
       <div className="flex gap-3">
         <Link
           isExternal
-          href={`https://api.whatsapp.com/send/?phone=+918401490380&text=Hello%2C+I%27m+interested+in+your+home+services.&type=phone_number&app_absent=0
+          href={`https://api.whatsapp.com/send/?phone=+918529594634&text=Hello%2C+I%27m+interested+in+your+home+services.&type=phone_number&app_absent=0
 `}
           className={buttonStyles({
             color: "primary",
@@ -41,6 +44,12 @@ export default function Home() {
           <span>Let&apos;s&apos; Redesign Your House 🚀</span>
         </Snippet>
       </div>
+      <Image
+        src="/indesign.jpg" // Path to your image
+        alt="Image of Designs"
+        width={500} // Desired width
+        height={300} // Desired height
+      />
     </section>
   );
 }

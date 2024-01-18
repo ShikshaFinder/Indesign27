@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div>
       <a
-        href="https://api.whatsapp.com/send/?phone=+918401490380&text=Hello%2C+I%27m+interested+in+your+home+services.&type=phone_number&app_absent=0
+        href="https://api.whatsapp.com/send/?phone=+918529594634&text=Hello%2C+I%27m+interested+in+your+home+services.&type=phone_number&app_absent=0
 "
       >
         We are a team of young and enthusiastic interior designers who are ready
