@@ -3,7 +3,6 @@ import { Snippet } from "@nextui-org/snippet";
 import { button as buttonStyles } from "@nextui-org/theme";
 import { title, subtitle } from "@/components/primitives";
 import Image from "next/image";
-import "@/styles/global.css"; // Import global CSS file
 
 
 export default function Home() {
