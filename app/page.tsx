@@ -3,10 +3,18 @@ import { Snippet } from "@nextui-org/snippet";
 import { button as buttonStyles } from "@nextui-org/theme";
 import { title, subtitle } from "@/components/primitives";
 import Image from "next/image";
+import Head from "next/head";
 
 
 export default function Home() {
+
 	return (
+    <>
+    <Head>
+      <title>in.design</title>
+      <meta name="description" content="Interior designer in Ahemdabad,Interior designer in Bopal,2BHK Flat Interior Designer,3 BHK Flat Interior Designer ,Interior designer in juna ahemdabad ,Interior designer in new ahemdabad,Kitchen designer in ahemdabad,Furniture designer in ahemdabad,3D designer ,Home Designer 3D,Office Interior Designer In Ahemdabad" />
+      
+    </Head>
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
       <div className="inline-block max-w-lg text-center justify-center">
         <h1 className={title()}>Make&nbsp;</h1>
@@ -50,5 +58,6 @@ export default function Home() {
         height={300} // Desired height
       />
     </section>
+    </>
   );
 }
